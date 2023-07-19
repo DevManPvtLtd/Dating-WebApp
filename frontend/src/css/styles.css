@@ -1,0 +1,183 @@
+/* Generic */
+.Uploaded-image {
+  max-height: 450px;
+  max-width: 250px;
+  border-radius: 23px;
+}
+
+.FileUpload-container {
+  max-height: 450px;
+  background-color: rgb(146, 146, 146);
+  width: 250px;
+  height: 500px;
+  max-width: 250px;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FileUpload-container:hover {
+  background-color: rgb(109, 109, 109);
+  cursor: pointer;
+}
+
+.FileUpload-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.DropDown-container {
+  width: 200px;
+  max-width: 200px;
+}
+
+.DropDown-toggle {
+}
+
+.DropDown-menu {
+  width: 500px;
+  max-width: 500px;
+}
+
+/* login page */
+.login-input {
+  border: 1px solid black;
+  height: 3rem;
+  border-radius: 13px;
+  text-align: left;
+  padding-left: 5px;
+  margin: 5px;
+  width: 20rem;
+}
+.login-button-body {
+  padding: 0.2rem;
+  background-color: #f9595f;
+  border-radius: 13px;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-button-body:hover {
+  background-color: #ff2c33;
+  cursor: pointer;
+}
+
+.login-text-body {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Home page */
+.home-button-body {
+  padding: 0.2rem;
+  background-color: black;
+  border-radius: 13px;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.home-button-body:hover {
+  background-color: rgb(35, 35, 35);
+  cursor: pointer;
+}
+
+.home-text-body {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.reviewCard-Container {
+  margin: 5px;
+  border: 2px solid rgb(103, 103, 103);
+  height: 22rem;
+  width: 18rem;
+  border-radius: 42px;
+  padding-top: 13px;
+}
+
+.reviewCard-hr {
+  border: 1px solid rgb(102, 102, 102);
+  margin-top: 7px;
+}
+
+.reviewCard-plack {
+}
+
+.reviewCard-image {
+  height: 2.51rem;
+  width: 2.48rem;
+}
+
+.reviewCard-name {
+  font-weight: 700;
+}
+
+.reviewCard-text {
+  font-size: 12px;
+  margin: 20px 20px;
+}
+
+/*  Login and signup */
+
+.signup-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+}
+
+.icon-container {
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+}
+.signup-label {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 12px;
+  color: #5b5b5b;
+}
+
+.signup-heading {
+  font-size: 48px;
+  color: black;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.signup-button-container {
+  margin-right: 0px;
+  margin: 10px;
+}
+
+.signup-prompt > * {
+  margin: 5px;
+}
+
+@media (max-width: 900px) {
+  .icon-container {
+    display: none;
+  }
+
+  .signup-heading {
+    font-size: 38px;
+  }
+}
